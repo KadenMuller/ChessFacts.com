@@ -1,0 +1,98 @@
+/* Selects all elements to reset default spacing */
+* {
+    /* Removes default margin from all elements */
+    margin: 0;
+    /* Removes default padding from all elements */
+    padding: 0;
+    /* Includes padding and border in the element's total width and height */
+    box-sizing: border-box;
+/* Closes the universal selector block */
+}
+
+/* Styles the main body of the page */
+body {
+    /* Sets the font family to a clean sans-serif font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Sets the background color to a soft grey */
+    background-color: #f0f2f5;
+    /* Uses Flexbox to align items within the body */
+    display: flex;
+    /* Vertically centers the content in the viewport */
+    justify-content: center;
+    /* Horizontally centers the content in the viewport */
+    align-items: center;
+    /* Sets the height of the body to fill the entire screen height */
+    height: 100vh;
+/* Closes the body style block */
+}
+
+/* Styles the container div that holds the content */
+.container {
+    /* Sets the background color of the box to white */
+    background-color: #ffffff;
+    /* Adds internal spacing inside the box */
+    padding: 2rem;
+    /* Rounds the corners of the box */
+    border-radius: 10px;
+    /* Adds a subtle shadow behind the box for a 3D effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Centers the text inside the container */
+    text-align: center;
+    /* Sets a maximum width so the box doesn't get too wide on large screens */
+    max-width: 500px;
+    /* Ensures the box is at least 90% wide on small screens */
+    width: 90%;
+/* Closes the container style block */
+}
+
+/* Styles the main heading (h1) inside the container */
+.container h1 {
+    /* Sets the text color to a dark charcoal */
+    color: #333;
+    /* Adds space below the heading to separate it from the text */
+    margin-bottom: 1.5rem;
+/* Closes the h1 style block */
+}
+
+/* Styles the paragraph that displays the fact */
+#fact-display {
+    /* Sets the font size to be slightly larger than default */
+    font-size: 1.2rem;
+    /* Sets the text color to a dark grey */
+    color: #555;
+    /* Adds space below the paragraph to separate it from the button */
+    margin-bottom: 2rem;
+    /* Sets the line height for better readability */
+    line-height: 1.5;
+    /* Sets a minimum height to prevent the box from jumping when text changes */
+    min-height: 80px;
+/* Closes the fact-display style block */
+}
+
+/* Styles the button element */
+button {
+    /* Sets the background color to a pleasant blue */
+    background-color: #007bff;
+    /* Sets the text color to white */
+    color: white;
+    /* Removes the default border around the button */
+    border: none;
+    /* Adds padding to make the button larger */
+    padding: 10px 20px;
+    /* Sets the font size of the button text */
+    font-size: 1rem;
+    /* Rounds the corners of the button */
+    border-radius: 5px;
+    /* Changes the mouse cursor to a pointer when hovering over the button */
+    cursor: pointer;
+    /* Adds a smooth transition effect for hover changes */
+    transition: background-color 0.3s ease;
+/* Closes the button style block */
+}
+
+/* Styles the button when the mouse hovers over it */
+button:hover {
+    /* Darkens the background color slightly on hover */
+    background-color: #0056b3;
+/* Closes the hover style block */
+}
